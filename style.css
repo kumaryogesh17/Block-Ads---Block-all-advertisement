@@ -1,0 +1,22 @@
+body{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(245, 240, 247);
+}
+h2{
+    color: rgb(6, 9, 15);
+    display: flex;
+    justify-content: center;
+    
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+#demo{
+    display: flex;
+    justify-content: center;
+    
+    
+}

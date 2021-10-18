@@ -1,0 +1,19 @@
+{
+  "name": "Block Ads - Block all advertisement",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Block Ads is pilot Project",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>","tabs","activeTab","storage"],
+  "background": {
+    "scripts": ["script.js"]
+  },
+  "content_scripts": [
+      {
+          "matches": ["https://*.youtube.com/*"],
+          "js": ["content.js"]
+      }
+  ]
+}
